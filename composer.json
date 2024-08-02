@@ -1,0 +1,17 @@
+{
+    "name": "m.aghumyan/mailer",
+    "autoload": {
+        "psr-4": {
+            "MAghumyan\\Mailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mesrop Aghumyan"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
