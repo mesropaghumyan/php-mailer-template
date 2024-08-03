@@ -10,7 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-if ($argc !== 5) {
+if ($argc !== 3) {
     echo "Usage: php mailer/index.php <attachment_name> <attachment_path>\n";
     exit(1);
 }
