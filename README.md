@@ -1,13 +1,11 @@
 # Install project
-`git clone https://github.com/mesropaghumyan/php-mailer-template.git`
-`cd php-mailer-template`
+`git clone https://github.com/mesropaghumyan/php-mailer-template.git && cd php-mailer-template`
 
 # Install PHP Mailer
 `composer install`
 
 # Configure SMTP
-`cp .env.example .env`
-`nano .env`
+`cp .env.example .env && nano .env`
 
 # Run script
 `php index.php <attachment_name> <attachment_path>`
